@@ -1,0 +1,348 @@
+{
+  "$defs": {
+    "Consent": {
+      "additionalProperties": false,
+      "properties": {
+        "consent_id": {
+          "format": "uuid",
+          "title": "Consent Id",
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "active",
+            "withdrawn"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "purposes": {
+          "items": {
+            "enum": [
+              "analysis",
+              "review",
+              "planning",
+              "posters"
+            ],
+            "type": "string"
+          },
+          "title": "Purposes",
+          "type": "array"
+        },
+        "expires_at": {
+          "format": "date-time",
+          "title": "Expires At",
+          "type": "string"
+        },
+        "external_model_processing": {
+          "default": false,
+          "title": "External Model Processing",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "consent_id",
+        "status",
+        "purposes",
+        "expires_at"
+      ],
+      "title": "Consent",
+      "type": "object"
+    },
+    "FeatureEvent": {
+      "additionalProperties": false,
+      "properties": {
+        "start_ms": {
+          "minimum": 0,
+          "title": "Start Ms",
+          "type": "integer"
+        },
+        "end_ms": {
+          "exclusiveMinimum": 0,
+          "title": "End Ms",
+          "type": "integer"
+        },
+        "kind": {
+          "enum": [
+            "hook",
+            "value",
+            "proof",
+            "cta",
+            "person_presence",
+            "screen_text"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "value": {
+          "minLength": 1,
+          "title": "Value",
+          "type": "string"
+        },
+        "source": {
+          "enum": [
+            "human",
+            "synthetic",
+            "asr",
+            "ocr",
+            "vlm",
+            "rule"
+          ],
+          "title": "Source",
+          "type": "string"
+        },
+        "confidence": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Confidence"
+        }
+      },
+      "required": [
+        "start_ms",
+        "end_ms",
+        "kind",
+        "value",
+        "source"
+      ],
+      "title": "FeatureEvent",
+      "type": "object"
+    },
+    "MetricSnapshot": {
+      "additionalProperties": false,
+      "properties": {
+        "observed_at": {
+          "format": "date-time",
+          "title": "Observed At",
+          "type": "string"
+        },
+        "window_hours": {
+          "exclusiveMinimum": 0,
+          "title": "Window Hours",
+          "type": "integer"
+        },
+        "source": {
+          "enum": [
+            "owner_export",
+            "permitted_api",
+            "synthetic"
+          ],
+          "title": "Source",
+          "type": "string"
+        },
+        "reach": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reach"
+        },
+        "saves": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Saves"
+        },
+        "shares": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Shares"
+        },
+        "missing_reason": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Missing Reason"
+        }
+      },
+      "required": [
+        "observed_at",
+        "window_hours",
+        "source"
+      ],
+      "title": "MetricSnapshot",
+      "type": "object"
+    },
+    "Post": {
+      "additionalProperties": false,
+      "properties": {
+        "post_id": {
+          "format": "uuid",
+          "title": "Post Id",
+          "type": "string"
+        },
+        "account_id": {
+          "format": "uuid",
+          "title": "Account Id",
+          "type": "string"
+        },
+        "consent": {
+          "$ref": "#/$defs/Consent"
+        },
+        "platform": {
+          "enum": [
+            "instagram_reels",
+            "tiktok"
+          ],
+          "title": "Platform",
+          "type": "string"
+        },
+        "published_at": {
+          "format": "date-time",
+          "title": "Published At",
+          "type": "string"
+        },
+        "duration_ms": {
+          "exclusiveMinimum": 0,
+          "maximum": 180000,
+          "title": "Duration Ms",
+          "type": "integer"
+        },
+        "purpose": {
+          "enum": [
+            "event",
+            "community",
+            "education",
+            "entertainment"
+          ],
+          "title": "Purpose",
+          "type": "string"
+        },
+        "campaign_id": {
+          "anyOf": [
+            {
+              "format": "uuid",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Campaign Id"
+        },
+        "paid": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Paid"
+        },
+        "collaboration": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Collaboration"
+        },
+        "follower_snapshot": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Follower Snapshot"
+        },
+        "metrics": {
+          "$ref": "#/$defs/MetricSnapshot"
+        },
+        "features": {
+          "items": {
+            "$ref": "#/$defs/FeatureEvent"
+          },
+          "title": "Features",
+          "type": "array"
+        }
+      },
+      "required": [
+        "post_id",
+        "account_id",
+        "consent",
+        "platform",
+        "published_at",
+        "duration_ms",
+        "purpose",
+        "metrics"
+      ],
+      "title": "Post",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.0",
+      "default": "1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "synthetic": {
+      "title": "Synthetic",
+      "type": "boolean"
+    },
+    "posts": {
+      "items": {
+        "$ref": "#/$defs/Post"
+      },
+      "minItems": 1,
+      "title": "Posts",
+      "type": "array"
+    }
+  },
+  "required": [
+    "synthetic",
+    "posts"
+  ],
+  "title": "Dataset",
+  "type": "object"
+}

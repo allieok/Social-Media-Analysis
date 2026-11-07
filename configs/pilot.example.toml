@@ -1,0 +1,12 @@
+schema_version = "1.0"
+mode = "offline"
+platform = "instagram_reels"
+target_posts = 50
+primary_metric = "save_rate_per_reach"
+metric_window_hours = 168
+# Planning values only; no live spend enforcement is implemented yet.
+budget_currency = "CAD"
+budget_cap = 150
+audit_fraction = 0.20
+external_model_calls_enabled = false
+# Store populated private configuration outside version control.

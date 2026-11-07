@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling==1.27.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "jet-social"
+version = "0.1.0"
+description = "Batch-first research starter for JET social media analysis"
+requires-python = ">=3.12,<3.14"
+dependencies = ["pydantic==2.12.4"]
+
+[project.scripts]
+jet-social = "jet_social.cli:main"
+
+[dependency-groups]
+dev = ["pytest==8.4.2", "ruff==0.14.4"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
