@@ -1,0 +1,746 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "posts": [
+    {
+      "post_id": "00000000-0000-0000-0000-000000000001",
+      "account_id": "00000000-0000-0000-0000-000000000064",
+      "consent": {
+        "consent_id": "00000000-0000-0000-0000-0000000000c8",
+        "status": "active",
+        "purposes": [
+          "analysis"
+        ],
+        "expires_at": "2099-01-01T00:00:00Z",
+        "external_model_processing": false
+      },
+      "platform": "instagram_reels",
+      "published_at": "2026-09-01T00:00:00+00:00",
+      "duration_ms": 15000,
+      "purpose": "event",
+      "paid": false,
+      "collaboration": false,
+      "follower_snapshot": 500,
+      "metrics": {
+        "observed_at": "2026-09-08T00:00:00+00:00",
+        "window_hours": 168,
+        "source": "synthetic",
+        "reach": 100,
+        "saves": 3,
+        "shares": 1
+      },
+      "features": [
+        {
+          "start_ms": 0,
+          "end_ms": 3000,
+          "kind": "hook",
+          "value": "Invented example: audience and value stated",
+          "source": "synthetic"
+        }
+      ]
+    },
+    {
+      "post_id": "00000000-0000-0000-0000-000000000002",
+      "account_id": "00000000-0000-0000-0000-000000000064",
+      "consent": {
+        "consent_id": "00000000-0000-0000-0000-0000000000c8",
+        "status": "active",
+        "purposes": [
+          "analysis"
+        ],
+        "expires_at": "2099-01-01T00:00:00Z",
+        "external_model_processing": false
+      },
+      "platform": "instagram_reels",
+      "published_at": "2026-09-02T00:00:00+00:00",
+      "duration_ms": 15500,
+      "purpose": "education",
+      "paid": false,
+      "collaboration": false,
+      "follower_snapshot": 500,
+      "metrics": {
+        "observed_at": "2026-09-09T00:00:00+00:00",
+        "window_hours": 168,
+        "source": "synthetic",
+        "reach": 120,
+        "saves": 4,
+        "shares": 1
+      },
+      "features": [
+        {
+          "start_ms": 0,
+          "end_ms": 3000,
+          "kind": "hook",
+          "value": "Invented example: audience and value stated",
+          "source": "synthetic"
+        }
+      ]
+    },
+    {
+      "post_id": "00000000-0000-0000-0000-000000000003",
+      "account_id": "00000000-0000-0000-0000-000000000064",
+      "consent": {
+        "consent_id": "00000000-0000-0000-0000-0000000000c8",
+        "status": "active",
+        "purposes": [
+          "analysis"
+        ],
+        "expires_at": "2099-01-01T00:00:00Z",
+        "external_model_processing": false
+      },
+      "platform": "instagram_reels",
+      "published_at": "2026-09-03T00:00:00+00:00",
+      "duration_ms": 16000,
+      "purpose": "event",
+      "paid": false,
+      "collaboration": false,
+      "follower_snapshot": 500,
+      "metrics": {
+        "observed_at": "2026-09-10T00:00:00+00:00",
+        "window_hours": 168,
+        "source": "synthetic",
+        "reach": 140,
+        "saves": 5,
+        "shares": 2
+      },
+      "features": [
+        {
+          "start_ms": 0,
+          "end_ms": 3000,
+          "kind": "hook",
+          "value": "Invented example: audience and value stated",
+          "source": "synthetic"
+        }
+      ]
+    },
+    {
+      "post_id": "00000000-0000-0000-0000-000000000004",
+      "account_id": "00000000-0000-0000-0000-000000000064",
+      "consent": {
+        "consent_id": "00000000-0000-0000-0000-0000000000c8",
+        "status": "active",
+        "purposes": [
+          "analysis"
+        ],
+        "expires_at": "2099-01-01T00:00:00Z",
+        "external_model_processing": false
+      },
+      "platform": "instagram_reels",
+      "published_at": "2026-09-04T00:00:00+00:00",
+      "duration_ms": 16500,
+      "purpose": "education",
+      "paid": false,
+      "collaboration": false,
+      "follower_snapshot": 500,
+      "metrics": {
+        "observed_at": "2026-09-11T00:00:00+00:00",
+        "window_hours": 168,
+        "source": "synthetic",
+        "reach": 160,
+        "saves": 6,
+        "shares": 2
+      },
+      "features": [
+        {
+          "start_ms": 0,
+          "end_ms": 3000,
+          "kind": "hook",
+          "value": "Invented example: audience and value stated",
+          "source": "synthetic"
+        }
+      ]
+    },
+    {
+      "post_id": "00000000-0000-0000-0000-000000000005",
+      "account_id": "00000000-0000-0000-0000-000000000064",
+      "consent": {
+        "consent_id": "00000000-0000-0000-0000-0000000000c8",
+        "status": "active",
+        "purposes": [
+          "analysis"
+        ],
+        "expires_at": "2099-01-01T00:00:00Z",
+        "external_model_processing": false
+      },
+      "platform": "instagram_reels",
+      "published_at": "2026-09-05T00:00:00+00:00",
+      "duration_ms": 17000,
+      "purpose": "event",
+      "paid": false,
+      "collaboration": false,
+      "follower_snapshot": 500,
+      "metrics": {
+        "observed_at": "2026-09-12T00:00:00+00:00",
+        "window_hours": 168,
+        "source": "synthetic",
+        "reach": 180,
+        "saves": 7,
+        "shares": 3
+      },
+      "features": [
+        {
+          "start_ms": 0,
+          "end_ms": 3000,
+          "kind": "hook",
+          "value": "Invented example: audience and value stated",
+          "source": "synthetic"
+        }
+      ]
+    },
+    {
+      "post_id": "00000000-0000-0000-0000-000000000006",
+      "account_id": "00000000-0000-0000-0000-000000000064",
+      "consent": {
+        "consent_id": "00000000-0000-0000-0000-0000000000c8",
+        "status": "active",
+        "purposes": [
+          "analysis"
+        ],
+        "expires_at": "2099-01-01T00:00:00Z",
+        "external_model_processing": false
+      },
+      "platform": "instagram_reels",
+      "published_at": "2026-09-06T00:00:00+00:00",
+      "duration_ms": 17500,
+      "purpose": "education",
+      "paid": false,
+      "collaboration": false,
+      "follower_snapshot": 500,
+      "metrics": {
+        "observed_at": "2026-09-13T00:00:00+00:00",
+        "window_hours": 168,
+        "source": "synthetic",
+        "reach": 200,
+        "saves": 8,
+        "shares": 3
+      },
+      "features": [
+        {
+          "start_ms": 0,
+          "end_ms": 3000,
+          "kind": "hook",
+          "value": "Invented example: audience and value stated",
+          "source": "synthetic"
+        }
+      ]
+    },
+    {
+      "post_id": "00000000-0000-0000-0000-000000000007",
+      "account_id": "00000000-0000-0000-0000-000000000064",
+      "consent": {
+        "consent_id": "00000000-0000-0000-0000-0000000000c8",
+        "status": "active",
+        "purposes": [
+          "analysis"
+        ],
+        "expires_at": "2099-01-01T00:00:00Z",
+        "external_model_processing": false
+      },
+      "platform": "instagram_reels",
+      "published_at": "2026-09-07T00:00:00+00:00",
+      "duration_ms": 18000,
+      "purpose": "event",
+      "paid": false,
+      "collaboration": false,
+      "follower_snapshot": 500,
+      "metrics": {
+        "observed_at": "2026-09-14T00:00:00+00:00",
+        "window_hours": 168,
+        "source": "synthetic",
+        "reach": 220,
+        "saves": 9,
+        "shares": 4
+      },
+      "features": [
+        {
+          "start_ms": 0,
+          "end_ms": 3000,
+          "kind": "hook",
+          "value": "Invented example: audience and value stated",
+          "source": "synthetic"
+        }
+      ]
+    },
+    {
+      "post_id": "00000000-0000-0000-0000-000000000008",
+      "account_id": "00000000-0000-0000-0000-000000000064",
+      "consent": {
+        "consent_id": "00000000-0000-0000-0000-0000000000c8",
+        "status": "active",
+        "purposes": [
+          "analysis"
+        ],
+        "expires_at": "2099-01-01T00:00:00Z",
+        "external_model_processing": false
+      },
+      "platform": "instagram_reels",
+      "published_at": "2026-09-08T00:00:00+00:00",
+      "duration_ms": 18500,
+      "purpose": "education",
+      "paid": false,
+      "collaboration": false,
+      "follower_snapshot": 500,
+      "metrics": {
+        "observed_at": "2026-09-15T00:00:00+00:00",
+        "window_hours": 168,
+        "source": "synthetic",
+        "reach": 240,
+        "saves": 10,
+        "shares": 4
+      },
+      "features": [
+        {
+          "start_ms": 0,
+          "end_ms": 3000,
+          "kind": "hook",
+          "value": "Invented example: audience and value stated",
+          "source": "synthetic"
+        }
+      ]
+    },
+    {
+      "post_id": "00000000-0000-0000-0000-000000000009",
+      "account_id": "00000000-0000-0000-0000-000000000064",
+      "consent": {
+        "consent_id": "00000000-0000-0000-0000-0000000000c8",
+        "status": "active",
+        "purposes": [
+          "analysis"
+        ],
+        "expires_at": "2099-01-01T00:00:00Z",
+        "external_model_processing": false
+      },
+      "platform": "instagram_reels",
+      "published_at": "2026-09-09T00:00:00+00:00",
+      "duration_ms": 19000,
+      "purpose": "event",
+      "paid": false,
+      "collaboration": false,
+      "follower_snapshot": 500,
+      "metrics": {
+        "observed_at": "2026-09-16T00:00:00+00:00",
+        "window_hours": 168,
+        "source": "synthetic",
+        "reach": 260,
+        "saves": 11,
+        "shares": 5
+      },
+      "features": [
+        {
+          "start_ms": 0,
+          "end_ms": 3000,
+          "kind": "hook",
+          "value": "Invented example: audience and value stated",
+          "source": "synthetic"
+        }
+      ]
+    },
+    {
+      "post_id": "00000000-0000-0000-0000-00000000000a",
+      "account_id": "00000000-0000-0000-0000-000000000064",
+      "consent": {
+        "consent_id": "00000000-0000-0000-0000-0000000000c8",
+        "status": "active",
+        "purposes": [
+          "analysis"
+        ],
+        "expires_at": "2099-01-01T00:00:00Z",
+        "external_model_processing": false
+      },
+      "platform": "instagram_reels",
+      "published_at": "2026-09-10T00:00:00+00:00",
+      "duration_ms": 19500,
+      "purpose": "education",
+      "paid": false,
+      "collaboration": false,
+      "follower_snapshot": 500,
+      "metrics": {
+        "observed_at": "2026-09-17T00:00:00+00:00",
+        "window_hours": 168,
+        "source": "synthetic",
+        "reach": 280,
+        "saves": 12,
+        "shares": 5
+      },
+      "features": [
+        {
+          "start_ms": 0,
+          "end_ms": 3000,
+          "kind": "hook",
+          "value": "Invented example: audience and value stated",
+          "source": "synthetic"
+        }
+      ]
+    },
+    {
+      "post_id": "00000000-0000-0000-0000-00000000000b",
+      "account_id": "00000000-0000-0000-0000-000000000064",
+      "consent": {
+        "consent_id": "00000000-0000-0000-0000-0000000000c8",
+        "status": "active",
+        "purposes": [
+          "analysis"
+        ],
+        "expires_at": "2099-01-01T00:00:00Z",
+        "external_model_processing": false
+      },
+      "platform": "instagram_reels",
+      "published_at": "2026-09-11T00:00:00+00:00",
+      "duration_ms": 20000,
+      "purpose": "event",
+      "paid": false,
+      "collaboration": false,
+      "follower_snapshot": 500,
+      "metrics": {
+        "observed_at": "2026-09-18T00:00:00+00:00",
+        "window_hours": 168,
+        "source": "synthetic",
+        "reach": 300,
+        "saves": 13,
+        "shares": 6
+      },
+      "features": [
+        {
+          "start_ms": 0,
+          "end_ms": 3000,
+          "kind": "hook",
+          "value": "Invented example: audience and value stated",
+          "source": "synthetic"
+        }
+      ]
+    },
+    {
+      "post_id": "00000000-0000-0000-0000-00000000000c",
+      "account_id": "00000000-0000-0000-0000-000000000064",
+      "consent": {
+        "consent_id": "00000000-0000-0000-0000-0000000000c8",
+        "status": "active",
+        "purposes": [
+          "analysis"
+        ],
+        "expires_at": "2099-01-01T00:00:00Z",
+        "external_model_processing": false
+      },
+      "platform": "instagram_reels",
+      "published_at": "2026-09-12T00:00:00+00:00",
+      "duration_ms": 20500,
+      "purpose": "education",
+      "paid": false,
+      "collaboration": false,
+      "follower_snapshot": 500,
+      "metrics": {
+        "observed_at": "2026-09-19T00:00:00+00:00",
+        "window_hours": 168,
+        "source": "synthetic",
+        "reach": 320,
+        "saves": 14,
+        "shares": 6
+      },
+      "features": [
+        {
+          "start_ms": 0,
+          "end_ms": 3000,
+          "kind": "hook",
+          "value": "Invented example: audience and value stated",
+          "source": "synthetic"
+        }
+      ]
+    },
+    {
+      "post_id": "00000000-0000-0000-0000-00000000000d",
+      "account_id": "00000000-0000-0000-0000-000000000064",
+      "consent": {
+        "consent_id": "00000000-0000-0000-0000-0000000000c8",
+        "status": "active",
+        "purposes": [
+          "analysis"
+        ],
+        "expires_at": "2099-01-01T00:00:00Z",
+        "external_model_processing": false
+      },
+      "platform": "instagram_reels",
+      "published_at": "2026-09-13T00:00:00+00:00",
+      "duration_ms": 21000,
+      "purpose": "event",
+      "paid": false,
+      "collaboration": false,
+      "follower_snapshot": 500,
+      "metrics": {
+        "observed_at": "2026-09-20T00:00:00+00:00",
+        "window_hours": 168,
+        "source": "synthetic",
+        "reach": 340,
+        "saves": 15,
+        "shares": 7
+      },
+      "features": [
+        {
+          "start_ms": 0,
+          "end_ms": 3000,
+          "kind": "hook",
+          "value": "Invented example: audience and value stated",
+          "source": "synthetic"
+        }
+      ]
+    },
+    {
+      "post_id": "00000000-0000-0000-0000-00000000000e",
+      "account_id": "00000000-0000-0000-0000-000000000064",
+      "consent": {
+        "consent_id": "00000000-0000-0000-0000-0000000000c8",
+        "status": "active",
+        "purposes": [
+          "analysis"
+        ],
+        "expires_at": "2099-01-01T00:00:00Z",
+        "external_model_processing": false
+      },
+      "platform": "instagram_reels",
+      "published_at": "2026-09-14T00:00:00+00:00",
+      "duration_ms": 21500,
+      "purpose": "education",
+      "paid": false,
+      "collaboration": false,
+      "follower_snapshot": 500,
+      "metrics": {
+        "observed_at": "2026-09-21T00:00:00+00:00",
+        "window_hours": 168,
+        "source": "synthetic",
+        "reach": 360,
+        "saves": 16,
+        "shares": 7
+      },
+      "features": [
+        {
+          "start_ms": 0,
+          "end_ms": 3000,
+          "kind": "hook",
+          "value": "Invented example: audience and value stated",
+          "source": "synthetic"
+        }
+      ]
+    },
+    {
+      "post_id": "00000000-0000-0000-0000-00000000000f",
+      "account_id": "00000000-0000-0000-0000-000000000064",
+      "consent": {
+        "consent_id": "00000000-0000-0000-0000-0000000000c8",
+        "status": "active",
+        "purposes": [
+          "analysis"
+        ],
+        "expires_at": "2099-01-01T00:00:00Z",
+        "external_model_processing": false
+      },
+      "platform": "instagram_reels",
+      "published_at": "2026-09-15T00:00:00+00:00",
+      "duration_ms": 22000,
+      "purpose": "event",
+      "paid": false,
+      "collaboration": false,
+      "follower_snapshot": 500,
+      "metrics": {
+        "observed_at": "2026-09-22T00:00:00+00:00",
+        "window_hours": 168,
+        "source": "synthetic",
+        "reach": 380,
+        "saves": 17,
+        "shares": 8
+      },
+      "features": [
+        {
+          "start_ms": 0,
+          "end_ms": 3000,
+          "kind": "hook",
+          "value": "Invented example: audience and value stated",
+          "source": "synthetic"
+        }
+      ]
+    },
+    {
+      "post_id": "00000000-0000-0000-0000-000000000010",
+      "account_id": "00000000-0000-0000-0000-000000000064",
+      "consent": {
+        "consent_id": "00000000-0000-0000-0000-0000000000c8",
+        "status": "active",
+        "purposes": [
+          "analysis"
+        ],
+        "expires_at": "2099-01-01T00:00:00Z",
+        "external_model_processing": false
+      },
+      "platform": "instagram_reels",
+      "published_at": "2026-09-16T00:00:00+00:00",
+      "duration_ms": 22500,
+      "purpose": "education",
+      "paid": false,
+      "collaboration": false,
+      "follower_snapshot": 500,
+      "metrics": {
+        "observed_at": "2026-09-23T00:00:00+00:00",
+        "window_hours": 168,
+        "source": "synthetic",
+        "reach": 400,
+        "saves": 18,
+        "shares": 8
+      },
+      "features": [
+        {
+          "start_ms": 0,
+          "end_ms": 3000,
+          "kind": "hook",
+          "value": "Invented example: audience and value stated",
+          "source": "synthetic"
+        }
+      ]
+    },
+    {
+      "post_id": "00000000-0000-0000-0000-000000000011",
+      "account_id": "00000000-0000-0000-0000-000000000064",
+      "consent": {
+        "consent_id": "00000000-0000-0000-0000-0000000000c8",
+        "status": "active",
+        "purposes": [
+          "analysis"
+        ],
+        "expires_at": "2099-01-01T00:00:00Z",
+        "external_model_processing": false
+      },
+      "platform": "instagram_reels",
+      "published_at": "2026-09-17T00:00:00+00:00",
+      "duration_ms": 23000,
+      "purpose": "event",
+      "paid": false,
+      "collaboration": false,
+      "follower_snapshot": 500,
+      "metrics": {
+        "observed_at": "2026-09-24T00:00:00+00:00",
+        "window_hours": 168,
+        "source": "synthetic",
+        "reach": 420,
+        "saves": 19,
+        "shares": 9
+      },
+      "features": [
+        {
+          "start_ms": 0,
+          "end_ms": 3000,
+          "kind": "hook",
+          "value": "Invented example: audience and value stated",
+          "source": "synthetic"
+        }
+      ]
+    },
+    {
+      "post_id": "00000000-0000-0000-0000-000000000012",
+      "account_id": "00000000-0000-0000-0000-000000000064",
+      "consent": {
+        "consent_id": "00000000-0000-0000-0000-0000000000c8",
+        "status": "active",
+        "purposes": [
+          "analysis"
+        ],
+        "expires_at": "2099-01-01T00:00:00Z",
+        "external_model_processing": false
+      },
+      "platform": "instagram_reels",
+      "published_at": "2026-09-18T00:00:00+00:00",
+      "duration_ms": 23500,
+      "purpose": "education",
+      "paid": false,
+      "collaboration": false,
+      "follower_snapshot": 500,
+      "metrics": {
+        "observed_at": "2026-09-25T00:00:00+00:00",
+        "window_hours": 168,
+        "source": "synthetic",
+        "reach": 440,
+        "saves": 20,
+        "shares": 9
+      },
+      "features": [
+        {
+          "start_ms": 0,
+          "end_ms": 3000,
+          "kind": "hook",
+          "value": "Invented example: audience and value stated",
+          "source": "synthetic"
+        }
+      ]
+    },
+    {
+      "post_id": "00000000-0000-0000-0000-000000000013",
+      "account_id": "00000000-0000-0000-0000-000000000064",
+      "consent": {
+        "consent_id": "00000000-0000-0000-0000-0000000000c8",
+        "status": "active",
+        "purposes": [
+          "analysis"
+        ],
+        "expires_at": "2099-01-01T00:00:00Z",
+        "external_model_processing": false
+      },
+      "platform": "instagram_reels",
+      "published_at": "2026-09-19T00:00:00+00:00",
+      "duration_ms": 24000,
+      "purpose": "event",
+      "paid": false,
+      "collaboration": false,
+      "follower_snapshot": 500,
+      "metrics": {
+        "observed_at": "2026-09-26T00:00:00+00:00",
+        "window_hours": 168,
+        "source": "synthetic",
+        "reach": 460,
+        "saves": 21,
+        "shares": 10
+      },
+      "features": [
+        {
+          "start_ms": 0,
+          "end_ms": 3000,
+          "kind": "hook",
+          "value": "Invented example: audience and value stated",
+          "source": "synthetic"
+        }
+      ]
+    },
+    {
+      "post_id": "00000000-0000-0000-0000-000000000014",
+      "account_id": "00000000-0000-0000-0000-000000000064",
+      "consent": {
+        "consent_id": "00000000-0000-0000-0000-0000000000c8",
+        "status": "active",
+        "purposes": [
+          "analysis"
+        ],
+        "expires_at": "2099-01-01T00:00:00Z",
+        "external_model_processing": false
+      },
+      "platform": "instagram_reels",
+      "published_at": "2026-09-20T00:00:00+00:00",
+      "duration_ms": 24500,
+      "purpose": "education",
+      "paid": false,
+      "collaboration": false,
+      "follower_snapshot": 500,
+      "metrics": {
+        "observed_at": "2026-09-27T00:00:00+00:00",
+        "window_hours": 168,
+        "source": "synthetic",
+        "reach": 480,
+        "saves": 22,
+        "shares": 10
+      },
+      "features": [
+        {
+          "start_ms": 0,
+          "end_ms": 3000,
+          "kind": "hook",
+          "value": "Invented example: audience and value stated",
+          "source": "synthetic"
+        }
+      ]
+    }
+  ]
+}
